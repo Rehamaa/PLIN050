@@ -13,18 +13,16 @@ To explore the intersection of intuitive, flow-based coding practices and comput
 - Streamlined workflow for computational linguists
 
 ## Installation
-```bash
-# Clone the repository
-git clone https://github.com/zuzananeverilova/book_analysis.git
-
-# Install dependencies
-pip install -r requirements.txt
-```
+No additional Python dependencies are required for the Gutenberg downloader script.
 
 ## Usage
 ```bash
-python main.py
+python download_czech_gutenberg.py --output-dir data/czech_books
 ```
+
+## Gutenberg downloader
+A new script `download_czech_gutenberg.py` downloads Czech books from Project Gutenberg when plain text versions are available.
+
 
 ## Project Structure
 ```
